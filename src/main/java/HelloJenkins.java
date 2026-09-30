@@ -1,7 +1,7 @@
 public class HelloJenkins {
 
     public static String message() {
-        return "Hello Jenkins CI - Updated message!";
+        return "HI, Hello Jenkins CI - Updated message!";
     }
 
     public static void main(String[] args) {
