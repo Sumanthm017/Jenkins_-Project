@@ -8,3 +8,4 @@ public class HelloJenkins {
         System.out.println(message());
     }
 }
+// Testing automatic GitHub webhook trigger
