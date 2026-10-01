@@ -29,5 +29,11 @@ pipeline {
                 bat 'mvn test'
             }
         }
+
+        stage('Package') {
+            steps {
+                bat 'mvn package -DskipTests'
+            }
+        }
     }
 }
